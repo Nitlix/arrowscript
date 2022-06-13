@@ -1,0 +1,6 @@
+IF storage.json EXISTS {
+    CREATE storage.json AS e
+}
+ELSE {
+    OPEN storage.json AS e
+}
